@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int b = 5;
+
+    int sum = a + b;
+    int diff = a - b;
+    int mul = a * b;
+    int div = a / b;
+
+    cout << "Sum = " << sum << endl;
+    cout << "Difference = " << diff << endl;
+    cout << "Multiplication = " << mul << endl;
+    cout << "Division = " << div << endl;
+
+    return 0;
+}
+
+
+EXPECTED OUTPUT : Sum = 15
+                  Difference = 5
+                  Multiplication = 50
+                  DIVISION = 2
